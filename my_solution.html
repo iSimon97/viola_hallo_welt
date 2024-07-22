@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+div.container {
+  width: 1750px;
+  height: 850px; 
+  animation: myfirst 5s infinite;
+}
+
+div {
+  font-family: verdana;
+  white-space: nowrap
+}
+
+.flex-container {
+  display: flex;
+  background-color: myfirst;
+}
+
+.text {
+  color: yellow;
+  margin: 10px;
+  font-size: 150px;
+}
+
+
+@keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  25%  {background: yellow; left: 0px; top: 0px;}
+  50%  {background: blue; left: 0px; top: 0px;}
+  75%  {background: green; left: 0px; top: 0px;}
+  100% {background: red; left: 0px; top: 0px;}
+}
+</style>
+</head>
+<body>
+
+<h1>Simons Aufgabe</h1>
+<div class="flex-container container">
+  <div class="text">Hallo Welt!</div>
+<div></div>
+
+</body>
+</html>
